@@ -128,11 +128,16 @@ public static void Menu(){
                         System.out.println("Nuevo precio: ");
                         electric.setPrecio(scan.nextDouble());
                         System.out.println("SE MODIFICO CORRECTAMENTE");
+                    }else{
+                        System.out.println("No se encontro el aparato electronico");
                     }
                     
 
                     
+                }else{
+                    System.out.println("No hay nada disponible en el inventario");
                 }
+                System.out.println("--------------------");  
 
                 break;
 
